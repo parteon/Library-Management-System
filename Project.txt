@@ -1,0 +1,88 @@
+dct = { 14052: {'Book_Name': 'C-program',
+                         'Book_ID': 14052,
+                         'Quantity': 122,
+                         'Genre' : 'For programers',
+                         'Price':  150,
+                         'Author':'Dennis Ritchie'},
+                
+                 14053: { 'Book_Name': 'Java',
+                          'Book_ID': 14053,
+                          'Quantity': 150,
+                          'Genre' : 'For Java programers',
+                          'Price': 170,
+                          'Author':'James Gosling'},
+                
+                 14054: { 'Book_Name': 'Python',
+                          'Book_ID': 14054,
+                          'Quantity': 250,
+                          'Genre' : 'For Python programers',
+                          'Price': 300,
+                          'Author':' Guido van Rossum '},
+                
+                 14055: { 'Book_Name': 'R language',
+                          'Book_ID': 14055,
+                          'Quantity': 350,
+                          'Genre' : 'For R programers',
+                          'Price': 250,
+                          'Author':' Ross Ihaka and Robert Gentleman '}
+      },
+ 
+dct = {   'Student_ID' : {111222},
+           'Student_ID' : {111223},
+           'Student_ID' : {111224},
+           'Student_ID' : {111225},
+           'Student_ID' : {111226}
+       },
+
+  
+dct = {'Student_ID' :  { 'Student_Name': 'Abdul Saboor',
+                           'Graduation_Year' : 2024,
+                           'Graduation_Degree' : 'Btech-CSE',
+                           'Book_ID' : 14054,
+                           'Issue_Date' : 12-8-2021,
+                           'Expire_Date' : 12-9-2021},
+        
+        'Student_ID' :  {'Student_Name': 'Zubair',
+                         'Graduation_Year' : 2024,
+                         'Graduation_Degree' : 'Btech-CSE',
+                         'Book_ID' : 14054,
+                         'Issue_Date' : 12-9-2021,
+                         'Expire_Date' : 12-10-2021},
+        
+        'Student_ID' :   {'Student_Name': 'Akhil',                
+                          'Graduation_Year' : 2024,
+                          'Graduation_Degree' : 'Btech-CSE',
+                          'Book_ID' : 14053,
+                          'Issue_Date' : 1-8-2021,
+                          'Expire_Date' : 12-9-2021},
+        
+        'Student_ID' :   {'Student_Name': 'Abhiram',                 
+                          'Graduation_Year' : 2024,
+                          'Graduation_Degree' : 'Btech-CSE',
+                          'Book_ID' : 14052,
+                          'Issue_Date' : 13-10-2021,
+                          'Expire_Date' : 14-10-2021},
+        
+         'Student_ID' : {'Student_Name': 'Raveendra',                 
+                         'Graduation_Year' : 2024,
+                         'Graduation_Degree' : 'Btech-CSE',
+                         'Book_ID' : 14055,
+                         'Issue_Date' : 15-8-2021,
+                         'Expire_Date' : 19-12-2021}
+      
+}
+         
+
+
+
+reg_no = int(input('Enter Student-ID = '))
+
+print('-'*20)
+print(dct[reg_no]['Student_Name'])
+print(dct[reg_no]['Student_ID'])
+print(dct[reg_no]['Graduation_Year'])
+print(dct[reg_no]['Graduation_Degree'])
+print(dct[reg_no]['Book_ID'])
+print(dct[reg_no]['Issue_Date'])
+print(dct[reg_no]['Expire_Date'])
+print('-'*20)
